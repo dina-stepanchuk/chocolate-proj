@@ -47,7 +47,37 @@ button {
   cursor: pointer;
 }
 
+.container {
+  width: 1166px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container-narrow {
+  width: 1086px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*---------Header---------*/
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -70,16 +100,20 @@ button {
 
 /*---------Hero---------*/
 
+.hero {
+  background-color: #1e1823;
+  padding-top: 380px;
+  padding-bottom: 40px;
+  border-radius: 30px;
+  margin-bottom: 72px;
+}
+
 .hero-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21429;
   letter-spacing: -0.03em;
   color: #ffffff;
-}
-
-.hero {
-  background-color: #1e1823;
 }
 
 .hero-btn {
@@ -107,12 +141,15 @@ button {
 
 .features {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .features-subtitle {
   font-weight: 600;
   font-size: 18px;
   color: #ffffff;
+  margin-bottom: 18px;
 }
 
 .features-text {
