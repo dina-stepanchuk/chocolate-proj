@@ -160,9 +160,13 @@ button {
 
 /*---------Taste---------*/
 .taste {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .taste-title {
+  max-width: 411px;
+  margin: 0 auto 28px;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
@@ -171,11 +175,14 @@ button {
   text-align: center;
   color: #111111;
 }
+
 .taste-title-orange {
   color: #fd9222;
 }
 
 .taste-text {
+  max-width: 486px;
+  margin: 0 auto 50px;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -201,6 +208,8 @@ button {
 
 /*---------Made---------*/
 .made {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .made-title {
   font-weight: 600;
@@ -237,6 +246,8 @@ button {
 /*---------Review---------*/
 
 .review {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .review-title {
   font-weight: 600;
