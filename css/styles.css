@@ -78,16 +78,31 @@ button {
   padding-bottom: 28px;
 }
 
+.header-container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111111;
+  margin-right: 631px;
 }
 
 .first-logo {
   font-style: italic;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 24px;
 }
 
 .header-menu-link {
@@ -114,19 +129,31 @@ button {
   line-height: 1.21429;
   letter-spacing: -0.03em;
   color: #ffffff;
+  max-width: 484px;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
 }
 
 .hero-btn {
   font-weight: 600;
   font-size: 14px;
   color: #ffffff;
-  font-family: inherit;
+  padding: 14px, 40px;
+  border-radius: 100px;
+}
+
+.hero-btn-orange {
+  background: #fd9222;
+  border: none;
+  margin-right: 14px;
 }
 
 .hero-btn-shadow {
-  font-weight: 600;
-  font-size: 14px;
-  color: #ffffff;
+  border: 1px solid var(--white);
 }
 
 .hero-btn-scroll {
@@ -135,6 +162,7 @@ button {
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #ffffff;
+  margin-left: auto;
 }
 
 /*---------Features---------*/
@@ -156,6 +184,15 @@ button {
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.features-list {
+  display: flex;
+  gap: 70px;
+}
+
+.features-item {
+  width: calc((100% - 140px) / 3);
 }
 
 /*---------Taste---------*/
