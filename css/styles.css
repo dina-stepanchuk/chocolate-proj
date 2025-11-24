@@ -399,10 +399,16 @@ button {
 
 /*---------Footer---------*/
 
-.footer {
+.footer .container {
   padding-top: 50px;
   padding-bottom: 86px;
   background-color: #1e1823;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-title {
@@ -431,17 +437,15 @@ button {
 .footer-contacts {
 }
 .footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 .footer-contact-item {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-align: center;
   color: #ffffff;
-}
-.footer-navigation {
-  display: flex;
-  align-items: center;
 }
 
 .footer-address {
@@ -460,6 +464,14 @@ button {
   font-size: 14px;
   line-height: 1.14286;
   letter-spacing: -0.02em;
-  color: var(--white);
+
   color: #ffffff;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  text-align: right;
 }
